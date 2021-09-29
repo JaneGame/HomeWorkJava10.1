@@ -1,7 +1,7 @@
 package ru.netology;
 
 public class Radio {
-    private int idStation = 10;
+    private int idStation = 10; //количество радиостанций
     private int radioStation;
     private int volume;
     private int maxStation = idStation-1;
