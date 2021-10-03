@@ -4,14 +4,14 @@ public class Radio {
     private int idStation = 10;
     private int radioStation;
     private int volume;
-    private int maxStation = idStation;
+    private int maxStation = idStation-1;
     private int minStation = 0;
     private int maxVolume = 100;
     private int minVolume = 0;
 
     public Radio(int idStation) {
         this.idStation = idStation;
-        this.maxStation = idStation;
+        this.maxStation = idStation-1;
     }
 
 

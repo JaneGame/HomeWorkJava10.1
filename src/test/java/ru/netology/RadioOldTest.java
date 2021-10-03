@@ -16,7 +16,7 @@ public class RadioOldTest {
     void radioTestNextMax() {
 
 
-        rad.setChoiceStation(10);
+        rad.setChoiceStation(9);
 
         rad.stationNext();
 

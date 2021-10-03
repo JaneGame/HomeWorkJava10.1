@@ -26,7 +26,7 @@ public class RadioTest {
     void radioTestNextMax() {
 
 
-        rad1.setChoiceStation(5);
+        rad1.setChoiceStation(4);
 
         rad1.stationNext();
 
@@ -38,11 +38,11 @@ public class RadioTest {
     @Test
     void radioTestPrev() {
 
-        rad1.setChoiceStation(5);
+        rad1.setChoiceStation(4);
 
         rad1.stationPrev();
 
-        int expected = 4;
+        int expected = 3;
         int actual = rad1.getRadioStation();
         assertEquals(expected, actual);
     }
@@ -54,7 +54,7 @@ public class RadioTest {
 
         rad1.stationPrev();
 
-        int expected = 5;
+        int expected = 4;
         int actual = rad1.getRadioStation();
         assertEquals(expected, actual);
     }
@@ -62,10 +62,10 @@ public class RadioTest {
     @Test
     void radioTestChoice() {
 
-        rad1.setChoiceStation(5);
+        rad1.setChoiceStation(4);
 
 
-        int expected = 5;
+        int expected = 4;
         int actual = rad1.getRadioStation();
         assertEquals(expected, actual);
     }
